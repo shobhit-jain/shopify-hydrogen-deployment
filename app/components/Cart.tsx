@@ -176,7 +176,7 @@ function CartCheckoutActions({checkoutUrl}: {checkoutUrl: string}) {
 
   return (
     <div className="flex flex-col mt-2">
-      <a href={checkoutUrl} target="_self">
+      <a href={checkoutUrl} target="_blank" rel="noreferrer">
         <Button as="span" width="full">
           Continue to Checkout
         </Button>
