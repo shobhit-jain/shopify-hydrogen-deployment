@@ -120,6 +120,7 @@ export default function OrderRoute() {
                             <div className="w-24 card-image aspect-square">
                               <Image
                                 data={lineItem.variant.image}
+                                src={lineItem.variant.image.src}
                                 width={96}
                                 height={96}
                               />
